@@ -1,0 +1,21 @@
+# Site settings
+title: CLI gem project
+header-img: img/home-bg.png
+email: rchang9999@yahoo.com
+copyright_name: illusioninlost
+description: > # this means to ignore newlines until "baseurl:"
+  flatiron's project 1
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  illusioninlost
+learn_profile: illusioninlost
+email_username: rchang9999@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
