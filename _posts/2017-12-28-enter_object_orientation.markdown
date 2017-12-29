@@ -1,13 +1,14 @@
 ---
 layout: post
-title:      "Enter Object Orientation"
-date:       2017-12-29 00:49:31 +0000
+title:      "CLI Gem Project"
+date:       2017-12-28 19:49:31 -0500
 permalink:  enter_object_orientation
 ---
 
 
-Ruby is described as a pure object oriented programming. It is a way to format objects in an elegant manner to create objects in programming. It means strings, boolean values, integers, and floats are objects. And even classes are objects. I guess you can say that everything is an object in the ruby language. In a way, you can look at a class as a container that keeps everything object with its defined methods and properties. 
+Working on the CLI (command line interface) gem project has been an interesting experience. At first, I thought it was going to be very difficult (and it kind of is). I read the ruby gem guides and tried to perform some of them and finally I got one to set up the ruby gem. It didn’t really seem much to make a ruby gem. In addition, I watched a walkthrough video twice. 
 
-It would be cool to create objects that stand alone but wouldn't it be cooler to have different objects in a such a sophifisicated manner and maybe create a workable program. Well, with the help of superclasses and modules, this can be possible. The idea and basis of this is a mixin, in which defined methods, classes, and even other modules can come together to share capabilites. Naturally, this may rid of repetivtive code and produce a cleaner, interactive result.
+I then took a stab on making the program. I seemed lost; I worked on my first go-to ruby gem but the require file paths did not work and wasn’t sure if I set up the git repository correctly. The efforts remained vain and I came across the uninitialized constant error repeatedly. I was frustrated I thought I fixed the file paths, but I watched another walkthrough video and started the whole cli gem project over. 
 
-The idea of object orientation was somewhat new to me. I heard this term used in Java but never really dove into the details of it. Object orientation is a way to facilitate a program.
+I went on to start the ruby gem and miraculous the uninitialized constant error did not occur. I made sure that the file paths were correct. I set up the interface on the CLI.rb file. After grueling hours scraping a viable website and creating objects, I was able to scrap data and combine it with the interface. I went on to finish the application and tidy up the code that best reflects the user experience with the cli application. All in all, it was great to finally finish my first ever CLI ruby gem.
+
