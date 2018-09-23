@@ -5,7 +5,6 @@ date:       2018-09-23 01:28:33 -0400
 permalink:  about_this_and_redux
 ---
 
-
 The use of *this* in javascript is often a confusing subject in programming. In the light of recent events, this is a somewhat of a collection of resources built to explain the use of *this*. One thing to note is beginnning in ES5 bind methods(apply(),bind(),call()) were created to allow *this* to refer to the object. When created, arrow functions are said "to don't provide their own binding"(thus *this* refers to the  enclosing lexical context)".
  
 **Global Context**
