@@ -13,7 +13,7 @@ The use of *this* in javascript is often a confusing subject in programming. In 
 
 In global context, *this* refers to the global object. Using the web browser's console, we can see that *this* refers to the window.
 
-**Calling this and using apply, bind, call**
+**Calling this and using apply(), bind(), call()**
 ![](https://i.imgur.com/TJkaRsN.png)
 
 In the above code, var obj is set as an object with *key a*, which has a value of string "object". I then set another variable a to the string "global". I simply made a test function that return this.a, not knowing what this refers to. When running test() as is, string "global" is returned because *this* refers to the window. When running with apply and call methods(these two, as well as the bind method, refers *this* in enclosing context), string "object", NOT "global", is returned because the method apply or call, referred *this* to var obj,NOT the window.
