@@ -12,7 +12,7 @@ permalink:  about_this_and_redux
 
 ![](https://i.imgur.com/6NDfuYu.png)
 
-     In global context, *this* refers to the global object. Using the web browser's console, we can see that *this* refers to the window.
+   In global context, *this* refers to the global object. Using the web browser's console, we can see that *this* refers to the window.
 
 **Calling this and using apply, bind, call**
 ![](https://i.imgur.com/TJkaRsN.png)
