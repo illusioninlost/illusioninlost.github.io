@@ -21,7 +21,7 @@ In the above code, var obj is set as an object with *key a*, which has a value o
 **Arrow Function and Object Function**
 ![](https://i.imgur.com/FHIKckE.png)
 
-Arrow functions, as discussed, do not have their own binding. In this demonstration, an object is created with properties: i that points to a number, b that points to an arrow function, and c that points to object function. The returned value of both functions is console.log(this.i, this). As we can see, using the arrow function, this.i refers to undefined and this refers to the window. Using the object function, this.i refers to number 10 and this refers to the object itself, var obj. Arrow functions do not provide their own binding. Arrow functions may be created faster with simpler syntax but lacks in the binding of this when called. ![](![](http://)http://)Object function bind *this* to the object or in the example case, var obj. 
+Arrow functions, as discussed, do not have their own binding. In this demonstration, an object is created with properties: i that points to a number, b that points to an arrow function, and c that points to object function. The returned value of both functions is console.log(this.i, this). As we can see, using the arrow function, this.i refers to undefined and this refers to the window. Using the object function, this.i refers to number 10 and this refers to the object itself, var obj. Arrow functions do not provide their own binding. Arrow functions may be created faster with simpler syntax but lacks in the binding of this when called. Object function bind *this* to the object or in the example case, var obj. 
 		
    
 
