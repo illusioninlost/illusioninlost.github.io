@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Programming challenges"
-date:       2018-11-17 14:56:47 +0000
+date:       2018-11-17 09:56:48 -0500
 permalink:  programming_challenges
 ---
 
