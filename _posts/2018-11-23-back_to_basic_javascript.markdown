@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Back to basic Javascript"
-date:       2018-11-23 19:17:26 +0000
+date:       2018-11-23 14:17:27 -0500
 permalink:  back_to_basic_javascript
 ---
 
